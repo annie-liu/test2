@@ -1,0 +1,78 @@
+/* line 25, C:/soft/PortableGit-1.7.9-preview20120201/test2/sass/buttons.scss */
+body {
+  font-family: Helvetica;
+  margin: 50px;
+}
+
+/* line 29, C:/soft/PortableGit-1.7.9-preview20120201/test2/sass/buttons.scss */
+.button {
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 30px;
+  padding: 0 15px;
+  height: 30px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #2c5d85;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c5daeb), color-stop(4%, #8bb5d8), color-stop(100%, #5291c5));
+  background-image: -webkit-linear-gradient(top, #c5daeb, #8bb5d8 4%, #5291c5);
+  background-image: -moz-linear-gradient(top, #c5daeb, #8bb5d8 4%, #5291c5);
+  background-image: -o-linear-gradient(top, #c5daeb, #8bb5d8 4%, #5291c5);
+  background-image: -ms-linear-gradient(top, #c5daeb, #8bb5d8 4%, #5291c5);
+  background-image: linear-gradient(top, #c5daeb, #8bb5d8 4%, #5291c5);
+  text-shadow: #3977ab 0 -1px 0;
+}
+/* line 19, C:/soft/PortableGit-1.7.9-preview20120201/test2/sass/buttons.scss */
+.button:active {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #20425e), color-stop(4%, #336a98), color-stop(100%, #3d7fb6));
+  background-image: -webkit-linear-gradient(top, #20425e, #336a98 4%, #3d7fb6);
+  background-image: -moz-linear-gradient(top, #20425e, #336a98 4%, #3d7fb6);
+  background-image: -o-linear-gradient(top, #20425e, #336a98 4%, #3d7fb6);
+  background-image: -ms-linear-gradient(top, #20425e, #336a98 4%, #3d7fb6);
+  background-image: linear-gradient(top, #20425e, #336a98 4%, #3d7fb6);
+}
+
+/* line 33, C:/soft/PortableGit-1.7.9-preview20120201/test2/sass/buttons.scss */
+.green_button, .biggreenbutton {
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 30px;
+  padding: 0 15px;
+  height: 30px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid #17370d;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #84dc67), color-stop(4%, #54c82e), color-stop(100%, #3a8a20));
+  background-image: -webkit-linear-gradient(top, #84dc67, #54c82e 4%, #3a8a20);
+  background-image: -moz-linear-gradient(top, #84dc67, #54c82e 4%, #3a8a20);
+  background-image: -o-linear-gradient(top, #84dc67, #54c82e 4%, #3a8a20);
+  background-image: -ms-linear-gradient(top, #84dc67, #54c82e 4%, #3a8a20);
+  background-image: linear-gradient(top, #84dc67, #54c82e 4%, #3a8a20);
+  text-shadow: #296116 0 -1px 0;
+}
+/* line 19, C:/soft/PortableGit-1.7.9-preview20120201/test2/sass/buttons.scss */
+.green_button:active, .biggreenbutton:active {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #060e03), color-stop(4%, #204c12), color-stop(100%, #2e6d19));
+  background-image: -webkit-linear-gradient(top, #060e03, #204c12 4%, #2e6d19);
+  background-image: -moz-linear-gradient(top, #060e03, #204c12 4%, #2e6d19);
+  background-image: -o-linear-gradient(top, #060e03, #204c12 4%, #2e6d19);
+  background-image: -ms-linear-gradient(top, #060e03, #204c12 4%, #2e6d19);
+  background-image: linear-gradient(top, #060e03, #204c12 4%, #2e6d19);
+}
+
+/* line 37, C:/soft/PortableGit-1.7.9-preview20120201/test2/sass/buttons.scss */
+.biggreenbutton {
+  font-size: 2em;
+}
