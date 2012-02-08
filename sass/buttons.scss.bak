@@ -33,8 +33,3 @@ body {
   .green_button {
     @include buttonize(#3A8A20); // Green
   }
-  
-  .biggreenbutton {
-    @extend .green_button;
-    font-size: 2em;
-}
